@@ -156,7 +156,7 @@ class fcCon:
     self.rareValue = info[15]
     self.humidity_cur = info[16]
 
-    logging.info("fcCon: Current humidity reported by device = %s", str(self.humidity_cur))
+    logging.debug("fcCon: Current humidity reported by device = %s", str(self.humidity_cur))
 
     self.indoorTmp = info[17]
     self.humidity_cur_dot = info[18] & 240

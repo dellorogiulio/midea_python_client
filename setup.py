@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name = "midea_python_client",
-    version="1.0.1",
+    version="1.0.2",
     author="Dell'Oro Giulio",
     author_email="dellorogiulio@gmail.com",
     description="Client-side Python library for EVA II PRO WiFi Smart Dehumidifier appliance by Midea/Inventor.",
