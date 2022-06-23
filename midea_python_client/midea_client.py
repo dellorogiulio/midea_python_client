@@ -22,7 +22,7 @@ class MideaClient:
   LANGUAGE    = "en_US"
 
 
-  def __init__(self, email, password, sha256password, debug=False, verbose=False, logFile="", cacheTimeInSeconds=300):
+  def __init__(self, email, password, sha256password, debug=False, verbose=False, logFile="", cacheTimeInSeconds=60):
     #Set logging
     if debug:
       loglevel=logging.DEBUG
