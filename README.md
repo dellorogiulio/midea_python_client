@@ -1,15 +1,15 @@
 # Library for EVA II PRO WiFi Smart Dehumidifier appliance
-[![PyPI](https://img.shields.io/pypi/v/midea-inventor-lib.svg)](https://pypi.org/project/midea-inventor-lib/)
-[![](https://img.shields.io/pypi/pyversions/midea-inventor-lib.svg)](https://pypi.org/project/midea-inventor-lib/)
-[![](https://img.shields.io/pypi/l/midea-inventor-lib.svg)](https://pypi.org/project/midea-inventor-lib/)
-[![](https://img.shields.io/pypi/wheel/midea-inventor-lib.svg)](https://pypi.org/pypi/midea-inventor-lib/)
-[![](https://img.shields.io/pypi/status/midea-inventor-lib.svg)](https://pypi.org/pypi/midea-inventor-lib/)
-[![](https://img.shields.io/pypi/implementation/midea-inventor-lib.svg)](https://pypi.org/pypi/midea-inventor-lib/)
-[![<100kB](https://img.shields.io/github/languages/code-size/barban-dev/midea_inventor_dehumidifier.svg)](https://github.com/barban-dev/midea_inventor_dehumidifier)
-[![<100kB](https://img.shields.io/github/repo-size/barban-dev/midea_inventor_dehumidifier.svg)](https://github.com/barban-dev/midea_inventor_dehumidifier)
-[![Build status](https://travis-ci.com/barban-dev/midea_inventor_dehumidifier.svg?branch=master)](https://travis-ci.com/barban-dev/midea_inventor_dehumidifier)
-[![Known Vulnerabilities](https://snyk.io/test/github/barban-dev/midea_inventor_dehumidifier/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/barban-dev/midea_inventor_dehumidifier?targetFile=requirements.txt)
-[![HitCount](http://hits.dwyl.io/barban-dev/midea_inventor_dehumidifier.svg)](http://hits.dwyl.io/barban-dev/midea_inventor_dehumidifier)
+[![PyPI](https://img.shields.io/pypi/v/midea_python_client.svg)](https://pypi.org/project/midea_python_client/)
+[![](https://img.shields.io/pypi/pyversions/midea_python_client.svg)](https://pypi.org/project/midea_python_client/)
+[![](https://img.shields.io/pypi/l/midea_python_client.svg)](https://pypi.org/project/midea_python_client/)
+[![](https://img.shields.io/pypi/wheel/midea_python_client.svg)](https://pypi.org/pypi/midea_python_client/)
+[![](https://img.shields.io/pypi/status/midea_python_client.svg)](https://pypi.org/pypi/midea_python_client/)
+[![](https://img.shields.io/pypi/implementation/midea_python_client.svg)](https://pypi.org/pypi/midea_python_client/)
+[![<100kB](https://img.shields.io/github/languages/code-size/dellorogiulio/midea_python_client.svg)](https://github.com/dellorogiulio/midea_python_client)
+[![<100kB](https://img.shields.io/github/repo-size/dellorogiulio/midea_python_client.svg)](https://github.com/dellorogiulio/midea_python_client)
+[![Build status](https://travis-ci.com/dellorogiulio/midea_python_client.svg?branch=master)](https://travis-ci.com/dellorogiulio/midea_python_client)
+[![Known Vulnerabilities](https://snyk.io/test/github/dellorogiulio/midea_python_client/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/dellorogiulio/midea_python_client?targetFile=requirements.txt)
+[![HitCount](http://hits.dwyl.io/dellorogiulio/midea_python_client.svg)](http://hits.dwyl.io/dellorogiulio/midea_python_client)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5E7ULVFGCGKU2&source=url)
 
 
@@ -50,14 +50,14 @@ Installation
 Install from PyPi using [pip](http://www.pip-installer.org/en/latest), a package manager for
 Python.
 ```
-pip install midea-inventor-lib
+pip install midea_python_client
 ```
 Don't have pip installed? Try installing it, by running this from the
 command line:
 ```
 $ curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python
 ```
-Or, you can [download the source code (ZIP)](https://github.com/barban-dev/midea_inventor_dehumidifier/zipball/master) and then run:
+Or, you can [download the source code (ZIP)](https://github.com/dellorogiulio/midea_python_client/zipball/master) and then run:
 ```
 python setup.py install
 ```
