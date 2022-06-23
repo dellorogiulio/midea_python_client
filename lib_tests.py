@@ -1,5 +1,5 @@
 import sys
-from midea_inventor_lib import MideaSecurity
+from midea_python_client import MideaSecurity
 
 TOTAL_TESTS_NUM = 7
 APP_KEY = "3742e9e5842d4ad59c2db887e12449f9"
@@ -88,7 +88,7 @@ def do_test(numtest):
 
 def main():
   print("**********************************************************************")
-  print("lib_test.py: Performing low-lovel tests on midea_inventor_lib classes.")
+  print("lib_test.py: Performing low-lovel tests on midea_python_client classes.")
   print("**********************************************************************")
   numtest = 1
   while (numtest <= TOTAL_TESTS_NUM):
